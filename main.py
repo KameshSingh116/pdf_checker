@@ -27,4 +27,6 @@ def hashfile(file1,file2):
             h2.update(hunk)
 
 
-            
+        return h1.hexdigest(), h2.hexdigest()       #hexagest() conversty the hash values of the files into a sequence of hexadecimal codes/symbols.
+
+
