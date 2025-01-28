@@ -30,3 +30,5 @@ def hashfile(file1,file2):
         return h1.hexdigest(), h2.hexdigest()       #hexagest() conversty the hash values of the files into a sequence of hexadecimal codes/symbols.
 
 
+message1, message2=hashfile("pdf1.pdf","pdf2.pdf")
+
